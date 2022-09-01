@@ -2,9 +2,9 @@
   "name": "ec2_deploy",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "init.js",
   "scripts": {
-    "dev": "babel-node app.js"
+    "dev": "nodemon --exec babel-node src/init.js"
   },
   "author": "",
   "license": "MIT",
@@ -14,7 +14,9 @@
   "devDependencies": {
     "@babel/core": "^7.18.13",
     "@babel/node": "^7.18.10",
-    "@babel/preset-env": "^7.18.10"
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19",
+    "pug": "^3.0.2"
   },
   "type": "module"
 }

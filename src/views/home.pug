@@ -1,0 +1,24 @@
+doctype html
+html(lang="ko")
+    head 
+        title #{pageTitle} | EC2 연습
+        link(rel="stylesheet" href="https://unpkg.com/mvp.css")
+    body
+        header
+            h1=pageTitle
+            nav
+                ul
+                    li
+                        a(href="/") 홈
+                    li 
+                        a(href="/login") 로그인
+                    li 
+                        a(href="/join") 회원가입
+                        
+                form
+                    input(type="text")
+                    input(value="검색" type="submit")
+
+        main 
+
+    include partials/footer
